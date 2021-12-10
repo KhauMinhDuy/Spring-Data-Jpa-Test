@@ -30,7 +30,7 @@ class EmployeeRepositoryTest {
 		Employee employee = Employee.builder()
 				.firstName("Khau")
 				.lastName("Duy")
-				.email("khauminhduy@gmail.com")
+				.email("example@gmail.com")
 				.build();
 		
 		employeeRepository.save(employee);
